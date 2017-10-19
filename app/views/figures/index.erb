@@ -1,0 +1,7 @@
+<h1>Notable NYC Figures</h1>
+
+<% @figures.each do |figure| %>
+  <h2>Name:<a href="/figures/<%=figure.id%>">
+    <%=figure.name%></h2>
+  </a>
+<% end %>
